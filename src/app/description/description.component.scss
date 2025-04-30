@@ -1,0 +1,41 @@
+.centered-content {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: normal;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #222;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  a {
+    display: inline-block;
+    color: #ff3c00;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 0;
+
+    &:hover {
+      text-decoration: none;
+      color: #f9bf3b;
+    }
+  }
+}
