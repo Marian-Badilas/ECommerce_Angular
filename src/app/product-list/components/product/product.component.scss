@@ -2,20 +2,6 @@ $primary-color: #ff3c00;
 $hover-color: #f9bf3b;
 $card-border: rgb(238, 236, 236);
 
-body {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 20px;
-  background: transparent;
-}
-
 .product-card {
   display: flex;
   flex-direction: column;

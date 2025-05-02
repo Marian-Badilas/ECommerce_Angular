@@ -1,0 +1,11 @@
+<app-product-categories (select)="onSelectProductCategory($event)" />
+<div class="product-list-container">
+  <div class="grid-container">
+    <app-product [selectedProduct]="products[0]" />
+    <app-product [selectedProduct]="products[1]" />
+    <app-product [selectedProduct]="products[2]" />
+    <app-product [selectedProduct]="products[3]" />
+    <app-product [selectedProduct]="products[2]" />
+    <app-product [selectedProduct]="products[1]" />
+  </div>
+</div>

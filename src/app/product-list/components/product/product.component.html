@@ -1,0 +1,20 @@
+<div class="product-card">
+  <div class="product-image">
+    <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
+  </div>
+  <div class="product-info">
+    <div class="product-name">
+      {{ selectedProduct.name }}
+    </div>
+    <div class="product-stats">
+      <div>{{ selectedProduct.stats.quantity }}</div>
+      <div>{{ selectedProduct.stats.calories }}</div>
+      <div>{{ selectedProduct.stats.total }}</div>
+    </div>
+  </div>
+  <div class="product-footer">
+    <div>{{ price }}</div>
+    <a href="#">Vezi Detalii</a>
+    <button>Adauga in cos</button>
+  </div>
+</div>
