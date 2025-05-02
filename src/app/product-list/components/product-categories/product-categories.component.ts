@@ -6,13 +6,15 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./product-categories.component.scss'],
 })
 export class ProductCategoriesComponent {
-  beverages = 'Beverages';
-  cookies = 'Cookies';
-  chia = 'Chia';
-  granola = 'Granola';
-  friends = 'Friends';
-  special = 'Special';
-  oats = 'Oats';
+  categories: string[] = [
+    'Beverages',
+    'Cookies',
+    'Chia',
+    'Granola',
+    'Friends',
+    'Special',
+    'Oats',
+  ];
 
   @Output() select = new EventEmitter();
 
