@@ -13,4 +13,8 @@ export class SearchbarComponent {
   friends = 'Friends';
   special = 'Special';
   oats = 'Oats';
+
+  onSelectProduct(product: string) {
+    console.log('click ' + product);
+  }
 }
