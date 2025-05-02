@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './meniu/topbar.component';
 import { DescriptionComponent } from './description/description.component';
-import { SearchbarComponent } from './product-list/components/searchbar/searchbar.component';
+import { ProductCategoriesComponent } from './product-list/components/product-categories/product-categories.component';
 import { ProductsComponent } from './product-list/components/products/products.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductListComponent } from './product-list/product-list.component';
