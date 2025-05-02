@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { mockedProduct1 } from '../../../models/mocked-objects/mocked-products';
+import { Component, Input } from '@angular/core';
+import { Product } from 'src/app/models/product.model';
 
 @Component({
   selector: 'app-product',
@@ -7,7 +7,7 @@ import { mockedProduct1 } from '../../../models/mocked-objects/mocked-products';
   styleUrls: ['./product.component.scss'],
 })
 export class ProductComponent {
-  selectedProduct = mockedProduct1;
+  @Input({ required: true }) selectedProduct!: Product;
 
   get price() {
     return this.selectedProduct.price + ' lei';
