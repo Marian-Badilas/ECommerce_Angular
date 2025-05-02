@@ -8,17 +8,17 @@ import { DescriptionComponent } from './description/description.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SearchbarComponent,
     TopBarComponent,
     DescriptionComponent,
-    ProductsComponent,
     FooterComponent,
+    ProductListComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
