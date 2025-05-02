@@ -5,6 +5,7 @@ export const mockedProduct1: Product = {
   name: 'Biscuiți de ovăz',
   image: '\\assets\\Group-17-1-500x375.png',
   price: 16.99,
+  category: 'Cookies',
   stats: {
     quantity: '150g',
     calories: '50 kcal / 100g',
@@ -17,6 +18,7 @@ export const mockedProduct2: Product = {
   name: 'Limonada',
   image: '\\assets\\Artboard-121-500x375.png',
   price: 16.99,
+  category: 'Beverages',
   stats: {
     quantity: '150g',
     calories: '50 kcal / 100g',
@@ -29,6 +31,7 @@ export const mockedProduct3: Product = {
   name: 'Unt de arahide',
   image: '\\assets\\CROCANT-500x375.png',
   price: 16.99,
+  category: 'Special',
   stats: {
     quantity: '150g',
     calories: '50 kcal / 100g',
@@ -41,6 +44,7 @@ export const mockedProduct4: Product = {
   name: 'Granola',
   image: '\\assets\\ROB7762-500x375.png',
   price: 16.99,
+  category: 'Granola',
   stats: {
     quantity: '150g',
     calories: '50 kcal / 100g',

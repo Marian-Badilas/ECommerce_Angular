@@ -4,6 +4,7 @@ export type Product = {
   image: string;
   price: number;
   stats: ProductStats;
+  category: string;
 };
 
 export type ProductStats = {

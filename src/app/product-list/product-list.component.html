@@ -1,9 +1,11 @@
 <app-product-categories (select)="onSelectProductCategory($event)" />
 <div class="product-list-container">
   <div class="grid-container">
-    @for (product of products; track product.id ){
+    @for (product of selectedProductsByCategory; track product.id ){
     <app-product [selectedProduct]="product" />
 
+    }@empty {
+    <h2>No items found</h2>
     }
   </div>
 </div>

@@ -15,8 +15,8 @@ import { Product } from '../models/product.model';
   styleUrl: './product-list.component.scss',
 })
 export class ProductListComponent {
-  onSelectProductCategory($event: any) {
-    console.log($event);
+  onSelectProductCategory(selectedCategory: any) {
+    this.selectedProductCategory = selectedCategory;
   }
 
   products: Product[] = [
@@ -25,4 +25,11 @@ export class ProductListComponent {
     mockedProduct3,
     mockedProduct4,
   ];
+  selectedProductCategory: string = this.products[0].category;
+
+  get selectedProductsByCategory() {
+    return this.products.filter((product) => {
+      return this.selectedProductCategory === product.category;
+    });
+  }
 }
