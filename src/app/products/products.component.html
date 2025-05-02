@@ -3,20 +3,20 @@
     <!-- Product 1 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="\assets\Group-17-1-500x375.png" alt="" />
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
       </div>
       <div class="product-info">
         <div class="product-name">
-          Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali
+          {{ selectedProduct.name }}
         </div>
         <div class="product-stats">
-          <div>150g</div>
-          <div>50 kcal / 100g</div>
-          <div>Total: 180 kcal</div>
+          <div>{{ selectedProduct.stats.quantity }}</div>
+          <div>{{ selectedProduct.stats.calories }}</div>
+          <div>{{ selectedProduct.stats.total }}</div>
         </div>
       </div>
       <div class="product-footer">
-        <div>16,99lei</div>
+        <div>{{ price }}</div>
         <a href="#">Vezi Detalii</a>
         <button>Adauga in cos</button>
       </div>
@@ -25,64 +25,62 @@
     <!-- Product 2 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="\assets\Group-17-1-500x375.png" alt="" />
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
       </div>
       <div class="product-info">
         <div class="product-name">
-          Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali
+          {{ selectedProduct.name }}
         </div>
         <div class="product-stats">
-          <div>150g</div>
-          <div>120 kcal / 100g</div>
-          <div>Total: 180 kcal</div>
+          <div>{{ selectedProduct.stats.quantity }}</div>
+          <div>{{ selectedProduct.stats.calories }}</div>
+          <div>{{ selectedProduct.stats.total }}</div>
         </div>
       </div>
       <div class="product-footer">
-        <div>16,99lei</div>
+        <div>{{ price }}</div>
         <a href="#">Vezi Detalii</a>
         <button>Adauga in cos</button>
       </div>
     </div>
-
     <!-- Product 3 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="\assets\Group-17-1-500x375.png" alt="" />
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
       </div>
       <div class="product-info">
         <div class="product-name">
-          Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali
+          {{ selectedProduct.name }}
         </div>
         <div class="product-stats">
-          <div>200g</div>
-          <div>480 kcal / 100g</div>
-          <div>Total: 960 kcal</div>
+          <div>{{ selectedProduct.stats.quantity }}</div>
+          <div>{{ selectedProduct.stats.calories }}</div>
+          <div>{{ selectedProduct.stats.total }}</div>
         </div>
       </div>
       <div class="product-footer">
-        <div>16,99lei</div>
+        <div>{{ price }}</div>
         <a href="#">Vezi Detalii</a>
         <button>Adauga in cos</button>
       </div>
     </div>
-
     <!-- Product 4 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="\assets\Group-17-1-500x375.png" alt="" />
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
       </div>
       <div class="product-info">
         <div class="product-name">
-          Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali
+          {{ selectedProduct.name }}
         </div>
         <div class="product-stats">
-          <div>1000ml</div>
-          <div>45 kcal / 100ml</div>
-          <div>Total: 450 kcal</div>
+          <div>{{ selectedProduct.stats.quantity }}</div>
+          <div>{{ selectedProduct.stats.calories }}</div>
+          <div>{{ selectedProduct.stats.total }}</div>
         </div>
       </div>
       <div class="product-footer">
-        <div>16,99lei</div>
+        <div>{{ price }}</div>
         <a href="#">Vezi Detalii</a>
         <button>Adauga in cos</button>
       </div>
@@ -91,20 +89,20 @@
     <!-- Product 5 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="\assets\Group-17-1-500x375.png" alt="" />
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
       </div>
       <div class="product-info">
         <div class="product-name">
-          Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali
+          {{ selectedProduct.name }}
         </div>
         <div class="product-stats">
-          <div>60g</div>
-          <div>380 kcal / 100g</div>
-          <div>Total: 228 kcal</div>
+          <div>{{ selectedProduct.stats.quantity }}</div>
+          <div>{{ selectedProduct.stats.calories }}</div>
+          <div>{{ selectedProduct.stats.total }}</div>
         </div>
       </div>
       <div class="product-footer">
-        <div>16,99lei</div>
+        <div>{{ price }}</div>
         <a href="#">Vezi Detalii</a>
         <button>Adauga in cos</button>
       </div>
@@ -113,20 +111,20 @@
     <!-- Product 6 -->
     <div class="product-card">
       <div class="product-image">
-        <img src="\assets\Group-17-1-500x375.png" alt="" />
+        <img [src]="selectedProduct.image" [alt]="selectedProduct.name" />
       </div>
       <div class="product-info">
         <div class="product-name">
-          Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali
+          {{ selectedProduct.name }}
         </div>
         <div class="product-stats">
-          <div>300g</div>
-          <div>400 kcal / 100g</div>
-          <div>Total: 1200 kcal</div>
+          <div>{{ selectedProduct.stats.quantity }}</div>
+          <div>{{ selectedProduct.stats.calories }}</div>
+          <div>{{ selectedProduct.stats.total }}</div>
         </div>
       </div>
       <div class="product-footer">
-        <div>16,99lei</div>
+        <div>{{ price }}</div>
         <a href="#">Vezi Detalii</a>
         <button>Adauga in cos</button>
       </div>
