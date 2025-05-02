@@ -10,8 +10,16 @@ import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, TopBarComponent, DescriptionComponent, SearchbarComponent, ProductsComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    SearchbarComponent,
+    TopBarComponent,
+    DescriptionComponent,
+    ProductsComponent,
+    FooterComponent,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
