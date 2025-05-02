@@ -1,7 +1,8 @@
 import { Product } from '../product.model';
 
 export const mockedProduct1: Product = {
-  name: 'Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali',
+  id: 1,
+  name: 'Biscuiți de ovăz',
   image: '\\assets\\Group-17-1-500x375.png',
   price: 16.99,
   stats: {
@@ -12,7 +13,8 @@ export const mockedProduct1: Product = {
 };
 
 export const mockedProduct2: Product = {
-  name: 'Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali',
+  id: 2,
+  name: 'Limonada',
   image: '\\assets\\Artboard-121-500x375.png',
   price: 16.99,
   stats: {
@@ -23,7 +25,8 @@ export const mockedProduct2: Product = {
 };
 
 export const mockedProduct3: Product = {
-  name: 'Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali',
+  id: 3,
+  name: 'Unt de arahide',
   image: '\\assets\\CROCANT-500x375.png',
   price: 16.99,
   stats: {
@@ -34,7 +37,8 @@ export const mockedProduct3: Product = {
 };
 
 export const mockedProduct4: Product = {
-  name: 'Biscuiți de ovăz | 4 sortimente | Fara Zahar Adaugat | 100% naturali',
+  id: 4,
+  name: 'Granola',
   image: '\\assets\\ROB7762-500x375.png',
   price: 16.99,
   stats: {
