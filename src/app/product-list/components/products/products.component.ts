@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { mockedProduct } from '../models/mocked-objects/mocked-products';
+import { mockedProduct } from '../../../models/mocked-objects/mocked-products';
 
 @Component({
   selector: 'app-products',

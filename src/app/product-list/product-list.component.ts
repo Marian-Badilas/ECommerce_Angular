@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { SearchbarComponent } from '../searchbar/searchbar.component';
-import { ProductsComponent } from '../products/products.component';
+import { SearchbarComponent } from './components/searchbar/searchbar.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @Component({
   selector: 'app-product-list',
