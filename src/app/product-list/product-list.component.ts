@@ -15,6 +15,9 @@ import { Product } from '../models/product.model';
   styleUrl: './product-list.component.scss',
 })
 export class ProductListComponent {
+  onSelectProductCategory($event: any) {
+    console.log($event);
+  }
   products: Product[] = [
     mockedProduct1,
     mockedProduct2,

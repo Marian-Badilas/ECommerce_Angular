@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-product-categories',
@@ -14,7 +14,9 @@ export class ProductCategoriesComponent {
   special = 'Special';
   oats = 'Oats';
 
-  onSelectProduct(product: string) {
-    console.log('click ' + product);
+  @Output() select = new EventEmitter();
+
+  onSelectProductCategory(productCategory: string) {
+    this.select.emit(productCategory);
   }
 }
